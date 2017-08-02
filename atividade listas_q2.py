@@ -1,8 +1,13 @@
 #2.Leia uma lista de 5 números inteiros e mostre-os.
-numeros = [0, 0 , 0 , 0, 0]
-
-for i in range(5):
-    numeros[i] = int(input("Digite o número %d: " %(i + 1)))
-
-print("Os números foram: ", end="")
-print(numeros)
+def numeros():
+    N = []
+    i = 1
+    while i <= 5:
+        num = int(input("Digite o número %d: " %i))
+        N.append(num)
+        i+=1
+    return N
+def mostrar(N):
+    for i in N:
+        print(i, end="  ")
+mostrar(numeros())

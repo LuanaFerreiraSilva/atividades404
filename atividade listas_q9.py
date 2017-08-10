@@ -13,8 +13,10 @@ def  Idade_Altura():
         altura.append(alt)
 
     idade.reverse()
+    print("Idades Invertidas")
     print(idade)
     altura.reverse()
+    print("Alturas Invertidas")
     print(altura)
-        
+             
 Idade_Altura()

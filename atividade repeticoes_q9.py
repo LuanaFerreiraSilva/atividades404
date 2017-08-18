@@ -1,14 +1,16 @@
 #09. Criar um algoritmo que calcule a soma dos
 #números pares entre 25 e 200.
 soma = 0
-x = []
+i = []
  
-for c in range(24,200,2):
+for n in range(24,200,2):
  
-	x.append(c)
+	i.append(n)
  
-for c in range(0,len(x)):
+for n in range(0,len(i)):
  
-	soma += c
+	soma += n
  
 print("A soma dos números pares entre 25 e 200 é %d." % soma)
+
+

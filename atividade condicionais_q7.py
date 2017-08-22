@@ -1,6 +1,5 @@
-#7. Crie	uma	 função	que	recebe	o	nome	e	o	sexo	de	uma	pessoa,	e	retorne a	mensagem	“Ilmo	Sr.”,	caso	seja	
-#informado	o	sexo	masculino,	ou	“Ilma	Sra.”,	caso	seja	informado	o	sexo	feminino.	Retorne	junto	com	cada	
-#mensagem	de	saudação	o	nome	que	foi	informado.
+#7. Crie uma função que	recebe o nome e o sexo de uma pessoa, e retorne a mensagem "Ilmo Sr.", caso seja  informado o sexo masculino, ou “Ilma	Sra.”, caso seja informado	
+#o sexo	feminino. Retorne junto	com cada mensagem de saudação o	nome que foi informado.
 def tratamento(nome, sexo):
 
 	if sexo.lower() == "masculino":

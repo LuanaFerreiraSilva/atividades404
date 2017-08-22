@@ -1,35 +1,35 @@
-#15. Entrar com um número e imprimir todos os seus
-#divisores.
-n = int(input("Forneça um número inteiro: "))
+#15.Entrar com um número e imprimir todos os seus divisores.
 
-print("Os divisores de %d são: " % n, end = "")
+numero = int(input("Forneça um número inteiro: "))
 
-if n == 0:
+print("Os divisores de %d são: " % numero, end = "")
 
-	print("todos os números reais diferentes de zero.")
+if numero == 0:
 
-elif n > 0:
+	print("Todos os números reais diferentes de zero.")
 
-	for c in range(n,1,-1):
+elif numero > 0:
 
-		if n % c == 0:
+	for i in range(numero,1,-1):
 
-			print(c, end = ", ")
+		if numero % i == 0:
+
+			print(i, end = ", ")
 
 	print("1.")
 
-elif n < 0:
+elif numero < 0:
 
-	for c in range(n,0,1):
+	for i in range(numero,0,1):
 
-		if n % c == 0:
+		if numero % i == 0:
 
-			print(c, end = ", ")
+			print(i, end = ", ")
 
-	for c in range(1,abs(n),1):
+	for i in range(1,abs(numero),1):
 
-		if n % c == 0:
+		if numero % i == 0:
 
-			print(c, end = ", ")
+			print(i, end = ", ")
 
-	print("%d." % abs(n))
+	print("%d." % abs(numero))

@@ -1,14 +1,14 @@
-#5. Crie	uma	função	que	recebe	um	número	por	parâmetro	e	retorna	o	valor	booleano	verdadeiro	se	o	número	
-#for	par.
-def paridade(x):
+#5.Crie uma função que	recebe um número por parâmetro e retorna o valor booleano verdadeiro se o número for par.
 
-	return x % 2 == 0
+def Verdadeiro(num):
+
+	return num % 2 == 0
 
 try:
 
-	x = int(input("Forneça um número inteiro: "))
+	num = int(input("Forneça um número inteiro: "))
 
-	print(paridade(x))
+	print(Verdadeiro(num))
 
 except:
 

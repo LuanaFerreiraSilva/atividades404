@@ -1,31 +1,23 @@
-#22. Dados dois números inteiros positivos, determinar
+#22.Dados dois números inteiros positivos, determinar
 #o máximo divisor comum entre eles usando o
 #algoritmo de Euclides
-def euclides(a, b):
+def Algoritmo_Euclides(v1, v2):
     
-    if b == 0:
+    if v2 == 0:
         
-        return a
+        return v1
     
     else:
         
-        return euclides(b, a % b)
+        return euclides(v2, v1 % v2)
  
-a, b = int(input("Forneça dois números inteiros positivos: ")), int(input())
+v1, v2 = int(input("Digite dois números inteiros positivos: ")), int(input())
 
-if a > 0 and b > 0:
+if v1 > 0 and v2 > 0:
 
 
-	print("O MDC entre %d e %d é %d." % (a, b, euclides(a, b)))
-
-	# 8 e 10:
-	# euclides(8, 10)
-	# euclides(10, 10 % 8)
-	# euclides(10, 2)
-	# euclides(2, 10 % 2)
-	# euclides(2, 0)
-	# 2
+	print("O MDC entre %d e %d é %d." % (v1, v2, Algoritmo_Euclides(v1, v2)))
 
 else:
 
-	print("Erro: é preciso que dois números inteiros e positivos sejam fornecidos.")
+	print("Erro! Não foram digitados dois números inteiros e positivos .")

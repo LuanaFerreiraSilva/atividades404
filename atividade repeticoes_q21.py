@@ -5,7 +5,7 @@
 #anteriores. Faça um algoritmo que leia um número
 #inteiro calcule o seu número de Fibonacci. F1 = 1,
 #F2 = 1, F3 = 2, etc.
-def fib(n):
+def fibonacci(n):
 
 	a, b = 1, 1
 
@@ -19,7 +19,7 @@ n = int(input("F"))
 
 if n > 0:
 
-	print(fib(n))
+	print(fibonacci(n))
 
 else:
 

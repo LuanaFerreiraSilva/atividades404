@@ -1,5 +1,5 @@
 #1.Crie um dicionário e armazene nele os seus dados: nome, idade, telefone, endereço. Imprima todos os
-dados usando o padrão chave: valor.
+#dados usando o padrão chave: valor.
 
 Dados = {"Nome" : "Luana Silva",
              "Idade" : 18,
